@@ -21,4 +21,4 @@ jobs:
           npm install -g puppeteer@21.4.1
           pip3 install pyastgrep cfn-lint
       - uses: actions/checkout@v4
-      - uses: stevenbitner/autograding@v1.1
+      - uses: stevenbitner/autograding@main
