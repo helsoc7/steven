@@ -1,0 +1,75 @@
+{
+  "repo": "test-23-07/mini-script",
+  "introduction": "In dieser ersten kleinen Mini-Aufgabe erstellt ihr ein Skript, das Hello World ausgibt. \n Folgt den Anweisungen. Unter Hilfe findet ihr Links, die mit dem Wort Spickzettel markiert sind. Drückt diese bei Bedarf, falls ihr nicht weiterkommt. \n",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/HelloWorld.svg/512px-HelloWorld.svg.png",
+  "timeframe": "15 Minuten (Viel Erfolg!)",
+  "tests": [
+    {
+      "specs": {
+        "title": "Erstelle eine mini.sh Datei"
+      },
+      "name": "checking for mini.sh script",
+      "feedback": "mini.sh script could not be found",
+      "urls": [
+        "https://wiki.ubuntuusers.de/Shell/Bash-Skripting-Guide_f%C3%BCr_Anf%C3%A4nger/"
+      ],
+      "keywords": [
+        "bash",
+        "script",
+        "linux"
+      ],
+      "type": "",
+      "run": "test -f mini.sh",
+      "file": "",
+      "output": "",
+      "comparison": "",
+      "points": 5,
+      "timeout": 120
+    },
+    {
+      "specs": {
+        "title": "Erstelle ein Shebang in der Datei"
+      },
+      "name": "checking for shebang",
+      "feedback": "shebang could not be found in the mini.sh",
+      "urls": [
+        "https://wiki.ubuntuusers.de/Shebang_f%C3%BCr_Shellskripte/"
+      ],
+      "keywords": [
+        "bash",
+        "shebang",
+        "linux"
+      ],
+      "type": "",
+      "run": "grep -q '^#!/bin/bash' mini.sh",
+      "file": "",
+      "output": "",
+      "comparison": "",
+      "points": 5,
+      "timeout": 120
+    },
+    {
+      "specs": {
+        "title": "Schreibe das Skript so, dass es \"Hello World\" auf STDOUT ausgibt"
+      },
+      "name": "create a script that prints \"Hello World\"",
+      "feedback": "The script is not printing \"Hello World\". Please check the script",
+      "urls": [
+        "https://www.cyberciti.biz/faq/hello-world-bash-shell-script/"
+      ],
+      "keywords": [
+        "bash",
+        "echo",
+        "stdout",
+        "linux"
+      ],
+      "type": "",
+      "run": "bash mini.sh",
+      "file": "",
+      "output": "Hello World",
+      "comparison": "exact",
+      "points": 5,
+      "timeout": 120
+    }
+  ]
+}
