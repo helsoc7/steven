@@ -3,6 +3,7 @@
 " width="300"/>
 
 ---
+[![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions)
 # Aufgabe
 [![GitHub Classroom Workflow](https://github.com/test-23-07/mini-script/actions/workflows/classroom.yml/badge.svg)](https://github.com/test-23-07/mini-script/actions/workflows/classroom.yml) 
 
